@@ -160,8 +160,8 @@ textarea {
 body {
   margin: 0;
   direction:rtl;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
@@ -616,7 +616,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin:  0;
   font-family: inherit;
   font-weight: bold;
   line-height: 1;
@@ -900,7 +900,7 @@ input,
 button,
 select,
 textarea {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
 }
@@ -909,7 +909,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 label {
@@ -938,7 +938,7 @@ input[type="color"],
   height: 20px;
   padding: 4px 6px;
   margin-bottom: 9px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   color: #555555;
   -webkit-border-radius: 3px;
@@ -1456,7 +1456,7 @@ select:focus:required:invalid:focus {
 .input-append,
 .input-prepend {
   margin-bottom: 5px;
-  font-size: 0;
+  /* font-size: 0; */
   white-space: nowrap;
 }
 
@@ -1469,11 +1469,11 @@ select:focus:required:invalid:focus {
   position: relative;
   margin-bottom: 0;
   *margin-right: 0;
-  font-size: 14px;
+  font-size: 13px;
   vertical-align: top;
-  -webkit-border-radius: 0 0 3px 3px;
-     -moz-border-radius: 0 0 3px 3px;
-          border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
 .input-append input:focus,
@@ -1492,7 +1492,7 @@ select:focus:required:invalid:focus {
   height: 20px;
   min-width: 16px;
   padding: 4px 5px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 20px;
   text-align: center;
@@ -1525,24 +1525,24 @@ select:focus:required:invalid:focus {
 
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 3px 3px 0 0;
-     -moz-border-radius: 3px 3px 0 0;
-          border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 3px 3px 0 0;
-     -moz-border-radius: 3px 3px 0 0;
-          border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
 .input-append .add-on:last-child,
 .input-append .btn:last-child {
-  -webkit-border-radius: 0 0 3px 3px;
-     -moz-border-radius: 0 0 3px 3px;
-          border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
 .input-prepend.input-append input,
@@ -1556,17 +1556,17 @@ select:focus:required:invalid:focus {
 .input-prepend.input-append .add-on:first-child,
 .input-prepend.input-append .btn:first-child {
   margin-left: -1px;
-  -webkit-border-radius: 3px 3px 0 0;
-     -moz-border-radius: 3px 3px 0 0;
-          border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 0 3px 3px 0;
+     -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
 }
 
 .input-prepend.input-append .add-on:last-child,
 .input-prepend.input-append .btn:last-child {
   margin-right: -1px;
-  -webkit-border-radius: 0 0 3px 3px;
-     -moz-border-radius: 0 0 3px 3px;
-          border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+     -moz-border-radius: 3px 0 0 3px;
+          border-radius: 3px 0 0 3px;
 }
 
 input.search-query {
@@ -1592,27 +1592,27 @@ input.search-query {
 }
 
 .form-search .input-append .search-query {
-  -webkit-border-radius: 14px 14px 0 0;
-     -moz-border-radius: 14px 14px 0 0;
-          border-radius: 14px 14px 0 0;
+  -webkit-border-radius: 0 14px 14px 0;
+     -moz-border-radius: 0 14px 14px 0;
+          border-radius: 0 14px 14px 0;
 }
 
 .form-search .input-append .btn {
-  -webkit-border-radius: 0 0 14px 14px;
-     -moz-border-radius: 0 0 14px 14px;
-          border-radius: 0 0 14px 14px;
+  -webkit-border-radius: 14px 0 0 14px;
+     -moz-border-radius: 14px 0 0 14px;
+          border-radius: 14px 0 0 14px;
 }
 
 .form-search .input-prepend .search-query {
-  -webkit-border-radius: 0 0 14px 14px;
-     -moz-border-radius: 0 0 14px 14px;
-          border-radius: 0 0 14px 14px;
+  -webkit-border-radius: 14px 0 0 14px;
+     -moz-border-radius: 14px 0 0 14px;
+          border-radius: 14px 0 0 14px;
 }
 
 .form-search .input-prepend .btn {
-  -webkit-border-radius: 14px 14px 0 0;
-     -moz-border-radius: 14px 14px 0 0;
-          border-radius: 14px 14px 0 0;
+  -webkit-border-radius: 0 14px 14px 0;
+     -moz-border-radius: 0 14px 14px 0;
+          border-radius: 0 14px 14px 0;
 }
 
 .form-search input,
@@ -2040,7 +2040,7 @@ table .span24 {
   *margin-left: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("glyphicons-halflings.ltr.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -2054,7 +2054,7 @@ table .span24 {
 .dropdown-menu > li > a:hover > [class*=" icon-"],
 .dropdown-menu > .active > a > [class^="icon-"],
 .dropdown-menu > .active > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("glyphicons-halflings-white.ltr.png");
 }
 
 .icon-glass {
@@ -2693,7 +2693,7 @@ table .span24 {
 
 .dropdown-menu a {
   display: block;
-  padding: 3px 20px;
+  padding: 3px 10px;
   clear: both;
   font-weight: normal;
   line-height: 20px;
@@ -2780,9 +2780,9 @@ table .span24 {
   right: 100%;
   margin-top: -6px;
   margin-right: -1px;
-  -webkit-border-radius: 0 6px 6px 6px;
-     -moz-border-radius: 0 6px 6px 6px;
-          border-radius: 0 6px 6px 6px;
+  -webkit-border-radius: 6px 0 6px 6px;
+     -moz-border-radius: 6px 0 6px 6px;
+          border-radius: 6px 0 6px 6px;
 }
 
 .dropdown-submenu:hover .dropdown-menu {
@@ -2795,7 +2795,7 @@ table .span24 {
   width: 0;
   height: 0;
   margin-top: 5px;
-  margin-left: -10px;
+  margin-left: 0;
   border-color: transparent;
   border-right-color: #cccccc;
   border-style: solid;
@@ -2909,10 +2909,10 @@ button.close {
 .btn {
   display: inline-block;
   *display: inline;
-  padding: 4px 14px;
+  padding: 4px 10px;
   margin-bottom: 0;
   *margin-right: .3em;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   *line-height: 20px;
   color: #333333;
@@ -3357,7 +3357,7 @@ input[type="submit"].btn.btn-mini {
 
 .btn-group > .btn,
 .btn-group > .dropdown-menu {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .btn-group > .btn-mini {
@@ -3369,7 +3369,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group > .btn-large {
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .btn-group > .btn:first-child {
@@ -3543,27 +3543,27 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group-vertical .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
 }
 
 .btn-group-vertical .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
 }
 
 .btn-group-vertical .btn-large:first-child {
-  -webkit-border-radius: 6px 0 0 6px;
-     -moz-border-radius: 6px 0 0 6px;
-          border-radius: 6px 0 0 6px;
+  -webkit-border-radius: 6px 6px 0 0;
+     -moz-border-radius: 6px 6px 0 0;
+          border-radius: 6px 6px 0 0;
 }
 
 .btn-group-vertical .btn-large:last-child {
-  -webkit-border-radius: 0 6px 6px 0;
-     -moz-border-radius: 0 6px 6px 0;
-          border-radius: 0 6px 6px 0;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
 }
 
 .alert {
@@ -3739,9 +3739,9 @@ input[type="submit"].btn.btn-mini {
   padding-bottom: 8px;
   line-height: 20px;
   border: 1px solid transparent;
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
 }
 
 .nav-tabs > li > a:hover {
@@ -3932,9 +3932,9 @@ input[type="submit"].btn.btn-mini {
 }
 
 .tabs-below > .nav-tabs > li > a {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
 }
 
 .tabs-below > .nav-tabs > li > a:hover {
@@ -3967,9 +3967,9 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-left > .nav-tabs > li > a {
   margin-left: -1px;
-  -webkit-border-radius: 4px 4px 0 0;
-     -moz-border-radius: 4px 4px 0 0;
-          border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
 }
 
 .tabs-left > .nav-tabs > li > a:hover {
@@ -3990,9 +3990,9 @@ input[type="submit"].btn.btn-mini {
 
 .tabs-right > .nav-tabs > li > a {
   margin-right: -1px;
-  -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
 }
 
 .tabs-right > .nav-tabs > li > a:hover {
@@ -4153,7 +4153,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   padding: 4px 14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4966,7 +4966,7 @@ input[type="submit"].btn.btn-mini {
 .popover-title {
   padding: 8px 14px;
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
